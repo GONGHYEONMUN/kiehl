@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+.container { /* 그리드시스템 */
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px; /* 그리드시스템 좌측 우측의 마진 */
+    /* background-color: pink; */
+}
+
+.wrapper {
+    width: 100%;
+}
+
+/* ========= header ========= */
+header {
+    position: relative;
+    width: 100%;
+    height: 105px;
+    /* background: url(../images/head_back.png) no-repeat left top; */
+} 
+
+/* leftmenu-logo-rightmenu */
+.menu-logo-flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* left-menu */
+.left-menu li {
+    float: left;
+}
+
+.left-menu img {
+    width: 23px;
+    height: 23px;
+    margin-top: 35px;
+}
+
+/* logo */
+.logo img {
+    width: 187px;
+    height: 77px;
+    margin-top: 15px;
+}
+
+/* right-menu */
+.right-menu li {
+    float: left;
+}
+
+.right-menu li:first-child img {
+    width: 30px;
+    height: 30px;
+    margin-top: 32px;
+    margin-right: 10px;
+}
+
+.right-menu li:nth-child(2) img {
+    width: 22px;
+    height: 22px;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+.right-menu li:last-child img {
+    width: 22px;
+    height: 22px;
+    margin-top: 35px;
+}
+
+/* main */
+/* main-img */
+video {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* bestsellers */
+.bestsellers h3 {
+    margin-top: 165px;
+    margin-bottom: 130px;
+}
+
+.list {
+    display: flex;
+}
+
+.list img {
+    width: 278px;
+    height: 278px;
+}
+
+.list-text p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* category */
+.category {
+    margin-top: 165px;
+    margin-bottom: 165px;
+}
+
+
+.calendula {
+    display: flex;
+}
+
+.pro-text {
+    background-color: #f2f3f5;
+    width: 592px;
+    height: 591px;
+    text-align: center;
+}
+
+.pro-text .orange {
+    color: #ee880a;
+    font-size: 70px;
+    font-family: CentSchbook BT;
+}
+
+.pro-text p {
+    color: #808080;
+    font-size: 30px;
+    font-family: LG Smart UI;
+}
+
+.product img {
+    width: 592px;
+    height: 591px;
+}
+
+.facial-fuel {
+    display: flex;
+}
+
+.facial-fuel img {
+    width: 588px;
+    height: 591px;
+}
+
+.pro-text .blue {
+    color: #0d76e2;
+    font-size: 70px;
+    font-family: CentSchbook BT;
+}
+
+.perfume {
+    display: flex;
+}
+
+.pro-text .brown {
+    color: #6f3504;
+    font-size: 70px;
+    font-family: CentSchbook BT;
+}
+
+.product2 {
+    display: flex;
+    margin-bottom: 165px;
+}
+
+
+
+
+
+
+
