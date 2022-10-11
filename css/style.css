@@ -93,7 +93,6 @@ video {
 
 .list-text a:hover {
     font-weight: bold;
-    font-size: 22px;
 }
 
 /* category */
@@ -158,18 +157,9 @@ video {
 .body-care,
 .hair-care { 
     position: relative; 
-    margin: 0; 
     width: 50%;
 
     transition: opacity 0.2s; 
-}
-
-.body-care .bodycare-img,
-.hair-care .haircare-img {
-    opacity: 1;
-    overflow: hidden;
-
-    transition: all 0.3s ease 0s;
 }
 
 .body-care:hover .bodycare-img,
@@ -177,37 +167,47 @@ video {
     background-color: white;
 }
 
-.body-care img,
-.hair-care img {
-    width: 100%;
+.bodycare-img,
+.haircare-img {
+    opacity: 1;
+    overflow: hidden;
+
+    transition: all 0.3s ease;
 }
 
 .body-care:hover img,
 .hair-care:hover img {
     opacity: 0.15;
 
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .body-care a > p,
 .hair-care a > p {
-    color: black;
-    bottom: 50px;
+    color: #808080;
+    font-size: 30px;
+    font-family: LG Smart UI;
+    bottom: 150px;
+    position: absolute;
+    text-align: right;
+    width: 89%;
     opacity: 0;
-    position: absolute; 
-    text-align: center; 
-    width: 100%;
 
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .body-care:hover a > p,
 .hair-care:hover a > p {
     opacity: 1; 
-    font-size: 30px; 
-    font-family: LG Smart UI;
-    font-weight: bold;
-    transition: all .3s ease; 
+    
+    transition: all 0.3s ease; 
+}
+
+.body-care:hover a:hover p,
+.hair-care:hover a:hover p {
+    text-decoration: underline 2px #808080;
+
+    transition: all 0.3s ease;
 }
 
 /* recommend */
@@ -257,7 +257,7 @@ video {
 }
 
 .consult-text a:hover {
-    text-decoration: underline 2px;
+    text-decoration: underline 2px black;
 }
 
 /* banner */
